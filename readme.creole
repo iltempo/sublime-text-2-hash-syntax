@@ -6,7 +6,7 @@ This plugin converts Ruby 1.8 hash rocket (=>) syntax to Ruby 1.9 colon sytax fo
 Please use [[http://wbond.net/sublime_packages/package_control|Package Control]]
 for installation.
 
-Default keybinding is cmd + ctrl + h.
+Default keybinding is cmd + ctrl + h
 
 == License
 
