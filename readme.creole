@@ -1,4 +1,4 @@
-= Sublime Text Ruby Hash Syntax Plugin
+= Sublime Text Ruby 1.9 Hash Converter Package
 
 This plugin converts Ruby 1.8 hash rocket (=>) syntax to Ruby 1.9 colon sytax for
 [[http://sublimetext.com/2|Sublime Text 2]].
