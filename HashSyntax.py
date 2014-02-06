@@ -24,6 +24,6 @@ class HashSyntaxCommand(sublime_plugin.TextCommand):
         # Get the selected text
         s = self.view.substr(region)
         # Transform Ruby 1.8 hash syntax to 1.9
-        s = re.sub(r'([^\:])\:([a-zA-Z_0-9]*)(\s*)=\>(\s*)', new_style_hash, s)
+        s = re.sub(r'([^\:])\:([a-zA-Z_0-9]+[\?\!]?)(\s*)=\>(\s*)', new_style_hash, s)
         # Replace the selection with transformed text
         self.view.replace(edit, region, s)
